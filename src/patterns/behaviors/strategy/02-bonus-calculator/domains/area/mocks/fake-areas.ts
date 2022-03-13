@@ -1,4 +1,4 @@
-import { Area } from './../entities/area.entity';
+import { Area } from '../entities/area.entity';
 
 export const fakeAreas = [
   {
