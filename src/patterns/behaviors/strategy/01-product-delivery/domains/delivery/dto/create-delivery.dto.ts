@@ -1,4 +1,4 @@
-import { ShoppingCart } from '../../shopping-cart/entities/shopping-cart.entity';
+import { ShoppingCart } from '../../order/entities/shopping-cart.entity';
 
 export class CreateDeliveryDto {
   name: string;

@@ -1,6 +1,7 @@
 import { Category } from '../../category/entities/category.entity';
 
 export class Product {
+  id: number;
   name: string;
   price: number;
   height: number;

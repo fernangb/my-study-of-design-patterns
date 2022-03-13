@@ -5,6 +5,7 @@ export class Delivery {
   price: number;
   distance: number;
   volume: number;
+  weight: number;
   purchaseDate: Date;
   departureDate: Date;
   expectedDeliveryDate: Date;

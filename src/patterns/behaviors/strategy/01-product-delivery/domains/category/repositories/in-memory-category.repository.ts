@@ -2,10 +2,11 @@ import { Injectable } from '@nestjs/common';
 import { CreateCategoryDto } from '../dto/create-category.dto';
 import { UpdateCategoryDto } from '../dto/update-category.dto';
 import { Category } from '../entities/category.entity';
+import { fakeCategories } from '../mocks/fake-categories';
 
 @Injectable()
 export class InMemoryCategoryRepository {
-  private categories: Category[] = [];
+  private categories: Category[] = fakeCategories;
 
   create(data: CreateCategoryDto) {
     const category = new Category();

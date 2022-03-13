@@ -4,10 +4,11 @@ import { CreateInMemoryProductDto } from '../dto/create-in-memory-product.dto';
 import { CreateProductDto } from '../dto/create-product.dto';
 import { UpdateProductDto } from '../dto/update-product.dto';
 import { Product } from '../entities/product.entity';
+import { fakeProducts } from '../mocks/fake-products';
 
 @Injectable()
 export class InMemoryProductRepository {
-  private products: Product[] = [];
+  private products: Product[] = fakeProducts;
 
   create({
     name,
