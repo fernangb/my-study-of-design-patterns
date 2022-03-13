@@ -1,6 +1,6 @@
 import { IDeliveryStrategy } from '../interfaces/delivery-strategy.interface';
 
-export class DeliveryContextService implements IDeliveryStrategy {
+export class DeliveryContext {
   private deliveryStrategy: IDeliveryStrategy;
 
   constructor(deliveryStrategy: IDeliveryStrategy) {
