@@ -8,10 +8,6 @@ import { DateModule } from 'src/shared/providers/dates/date.module';
 @Module({
   imports: [DateModule],
   controllers: [DeliveryController],
-  providers: [
-    DeliveryService,
-    DeliveryContext,
-    ConventionalDeliveryService,
-  ],
+  providers: [DeliveryService, DeliveryContext, ConventionalDeliveryService],
 })
 export class DeliveryModule {}
