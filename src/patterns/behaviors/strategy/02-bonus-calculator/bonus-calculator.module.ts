@@ -1,8 +1,9 @@
 import { Module } from '@nestjs/common';
 import { AreaModule } from './area/area.module';
+import { EvaluationModule } from './evaluation/evaluation.module';
 
 @Module({
-  imports: [AreaModule],
+  imports: [AreaModule, EvaluationModule],
   controllers: [],
   providers: [],
   exports: [],
