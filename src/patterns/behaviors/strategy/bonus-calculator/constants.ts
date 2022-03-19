@@ -7,7 +7,20 @@ export const EVALUATIONS = {
 };
 
 export const AREAS = {
-  TECH: 'tech',
-  FINANCE: 'finance',
-  COMMERCIAL: 'commercial',
+  DEFAULT: {
+    NAME: 'default',
+    VALUE: 1000,
+  },
+  TECH: {
+    NAME: 'tech',
+    VALUE: 2500,
+  },
+  FINANCE: {
+    NAME: 'finance',
+    VALUE: 2500,
+  },
+  COMMERCIAL: {
+    NAME: 'commercial',
+    VALUE: 2500,
+  },
 };

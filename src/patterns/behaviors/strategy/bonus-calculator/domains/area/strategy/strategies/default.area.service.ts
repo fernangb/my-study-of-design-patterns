@@ -1,7 +1,8 @@
+import { AREAS } from '../../../../constants';
 import { IAreaStrategyInterface } from '../interfaces/area-strategy.interface';
 
 export class DefaultAreaService implements IAreaStrategyInterface {
   getBonus(): number {
-    return 1000;
+    return AREAS.DEFAULT.VALUE;
   }
 }

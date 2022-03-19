@@ -21,11 +21,11 @@ export class AreaContextService {
 
   getContext(name: string): IAreaStrategyInterface {
     switch (name) {
-      case AREAS.TECH:
+      case AREAS.TECH.NAME:
         return this.techAreaService;
-      case AREAS.COMMERCIAL:
+      case AREAS.COMMERCIAL.NAME:
         return this.commercialAreaService;
-      case AREAS.FINANCE:
+      case AREAS.FINANCE.NAME:
         return this.financeAreaService;
       default:
         return this.defaultAreaService;
